@@ -17,7 +17,7 @@ var meter = kilometerToMeter(29);
 console.log(meter);// writes “meter”
 
 
-// budget valvulator
+// budget calculator
 function budgetCalculator(watch, phone, laptop) {
 
     if(watch<0)
