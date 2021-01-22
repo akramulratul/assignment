@@ -1,14 +1,14 @@
 // https://github.com/akramulratul/assignment
 // kilometer to meter
 
-function kilometerToMeter(kelometer) {
+function kilometerToMeter(kilometer) {
 
-    if(kelometer<0)
+    if(kilometer<0)
     {
-        kelometer = 0;
+        kilometer = 0;
     }
 
-    var calculateMeter =kelometer * 1000;
+    var calculateMeter =kilometer * 1000;
         return calculateMeter;
 
 }
